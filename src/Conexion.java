@@ -2,7 +2,7 @@
  * @author Gabriel Alejandro Vicente Lorenzo
  */
 
-public class Conexión {
+public class Conexion {
     String ciudad1 = "";
     String ciudad2 = "";
     int km = 0;
@@ -13,7 +13,7 @@ public class Conexión {
      * @param b destino
      * @param c km
      */
-    public Conexión(String a, String b, String c){
+    public Conexion(String a, String b, String c){
         ciudad1 = a;
         ciudad2 = b;
         km = Integer.parseInt(c);

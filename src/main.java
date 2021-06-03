@@ -42,7 +42,7 @@ public class main {
                 }
                 System.out.println(temp);
                 String[] data = temp.split(" ");
-                Conexión conectando  =  new Conexión(data[0],data[1],data[2]);
+                Conexion conectando  =  new Conexion(data[0],data[1],data[2]);
                 //corroborando el vertice de la ciudad 1
                 if (!ciudades.contains(conectando.ciudad1)){
                     ciudades.add(conectando.ciudad1);
@@ -75,7 +75,7 @@ public class main {
                     break;
                 }
                 String[] data = temp.split(" ");
-                Conexión conectando  =  new Conexión(data[0],data[1],data[2]);
+                Conexion conectando  =  new Conexion(data[0],data[1],data[2]);
                 //corroborando el vertice de la ciudad 1
                 if (!ciudades.contains(conectando.ciudad1)){
                     ciudades.add(conectando.ciudad1);
@@ -156,7 +156,7 @@ public class main {
                             break;
                         }
                         String[] data = temp.split(" ");
-                        Conexión conectando  =  new Conexión(data[0],data[1],data[2]);
+                        Conexion conectando  =  new Conexion(data[0],data[1],data[2]);
                         //corroborando el vertice de la ciudad 1
                         if (!ciudades.contains(conectando.ciudad1)){
                             ciudades.add(conectando.ciudad1);
