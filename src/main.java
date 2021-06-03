@@ -1,5 +1,6 @@
 /**
  * @author Gabriel Alejandro Vicente Lorenzo
+ * Hoja de trabajo 10 CC2003 Seccion 10
  */
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -14,8 +15,15 @@ public class main {
         System.out.println("______________________-----------------------------------______________________");
         System.out.println();
 
+        /**
+         * guarda la posicion de la
+         */
+
         ArrayList<String> ciudades = new ArrayList<String>();
 
+        /**
+         * se lee el archivo txt para saber el espacio de la matriz
+         */
 
         try{
             FileReader r = new FileReader("guategrafo.txt");
@@ -44,6 +52,9 @@ public class main {
         }catch(Exception e){
             System.out.println("archivo no encontrado");
         }
+        /**
+         * se instancia la matriz y se llena con los datos asignados
+         */
 
         Graph matriz = new Graph(ciudades.size());
 

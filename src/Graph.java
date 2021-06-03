@@ -62,4 +62,7 @@ public class Graph {
     public int[][] retornar(){
         return matriz;
     }
+    public int devolver(int a, int b){
+        return matriz[a][b];
+    }
 }
