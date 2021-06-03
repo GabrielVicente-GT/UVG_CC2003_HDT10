@@ -7,12 +7,22 @@ public class Conexión {
     String ciudad2 = "";
     int km = 0;
 
+    /**
+     * constructor de conexion
+     * @param a origen
+     * @param b destino
+     * @param c km
+     */
     public Conexión(String a, String b, String c){
         ciudad1 = a;
         ciudad2 = b;
         km = Integer.parseInt(c);
     }
 
+    /**
+     * impresiond el string
+     * @return string
+     */
     @Override
     public String toString() {
         return "Conexión{" +
